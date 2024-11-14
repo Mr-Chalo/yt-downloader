@@ -16,7 +16,7 @@ export function UrlInput() {
     e.preventDefault()
     if (url.trim()) {
       setIsLoading(true)
-      router.push(`/download?url=${encodeURIComponent(url)}`)
+      router.push(`/search?q=${encodeURIComponent(url)}`)
     }
   }
 

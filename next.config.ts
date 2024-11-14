@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  //  External Image Config
   images: {
-    domains: ["i.ytimg.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+      },
+    ],
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
