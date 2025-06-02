@@ -27,7 +27,7 @@ const contentData = [
   {
     title: "About the Developer",
     paragraphs: [
-      "I am a passionate full-stack developer with expertise in modern web technologies. With a keen eye for user experience and a deep understanding of both frontend and backend development, I strive to create efficient, scalable, and user-friendly applications.",
+      "As an IT professional with a passion for music, I developed this YouTube downloader site to streamline the process of accessing and managing musical content. My aim is to leverage my programming skills to create intuitive and efficient tools that enhance user experience",
     ],
     developer: {
       name: "Nabin Khair",
